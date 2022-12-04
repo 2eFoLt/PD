@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Путеводитель первокурсника МосПолиТех</title>
+    <link href="static/css/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="header">
+        <a class="logotip">
+            <img src="/static/img/logotip/logotip.svg" alt="Логотип путеводителя МосПолиТех">
+            <form action="/">
+                <button type="submit" class="building-bttn"><span class="logotip">Путеводитель<br>первокурсника</span>
+                </button>
+            </form>
+        </a>
+        <div class="menu">
+            <input class="menu_input" type="checkbox" id="burger">
+            <label class="menu_label" for="burger">Меню</label>
+            <nav class="nav">
+                <form action="/bs">
+                    <button type="submit" class="building-bttn bs">Большая Семёновская</button>
+                </form>
+                <form action="/av">
+                    <button type="submit" class="building-bttn av">Автозаводская</button>
+                </form>
+                <form action="/pk">
+                    <button type="submit" class="building-bttn pk">Павла Корчагина</button>
+                </form>
+                <form action="/pr">
+                    <button type="submit" class="building-bttn pr">Прянишникова</button>
+                </form>
+                <form action="/mk">
+                    <button type="submit" class="building-bttn mk">Михалковская</button>
+                </form>
+            </nav>
+        </div>
+    </div>
+</header>
+<main>
+    <!-- slider -->
+    <section class="slider" id="slider">
+        <div class="slider_items" data-delay="7000" data-fade="2000">
+            <div class="slider_item">
+                <picture class="slider_picture">
+                    <img class="slider_img" src="static/img/campus/av_1.jpg" alt="0">
+                </picture>
+            </div>
+            <div class="slider_item">
+                <picture class="slider_picture">
+                    <img class="slider_img" src="static/img/campus/av_2.jpg" alt="1">
+                </picture>
+            </div>
+            <div class="slider_item">
+                <picture class="slider_picture">
+                    <img class="slider_img" src="static/img/campus/av_3.jpg" alt="2">
+                </picture>
+            </div>
+            <div class="slider_item">
+                <picture class="slider_picture">
+                    <img class="slider_img" src="static/img/campus/av_4.jpg" alt="3">
+                </picture>
+            </div>
+            <div class="slider_item">
+                <picture class="slider_picture">
+                    <img class="slider_img" src="static/img/campus/av_5.jpg" alt="4">
+                </picture>
+            </div>
+        </div>
+        <div class="bg_dark">
+            <div class="welcome">
+                <div class="wrapper">
+                    <div class="items">
+                        <h1>Большая Семёновская</h1>
+                        <p>Данный путеводитель <span>станет вам отличным помощником</span> в поиске ответов на волнующие
+                            вопросы, расскажет о самых интересных местах, зонах отдыха и полезного времяпрепровождения в
+                            нашем университете!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="campus">
+        <div class="wrapper">
+            <h2 class="">Адрес:</h2>
+        </div>
+
+        <div class="wrapper address">
+            <div class="address_items">
+                <div class="address_item map">
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A0fb06f23cc69f0e3de31ab81fa78bc058d101ef6b5d8ef6e15effc697f73d68b&amp;source=constructor"
+                            frameborder="0"></iframe>
+                </div>
+                <div class="address_item text">
+                    <span>Большая Семёновская д.&nbsp;38</span>
+                    <div class="transport">
+                        <div class="items">
+                            <div class="item circle" style="background-color: blue;">
+                                <img class="ico" src="static/img/icons/metro_.svg" alt="Большая Семёновская">
+                            </div>
+                            <div class="item name">Электрозаводская (4&nbsp;мин)</div>
+                        </div>
+                    </div>
+                    <div class="transport">
+                        <div class="items">
+                            <div class="item circle" style="background-color: pink;">
+                                <img class="ico" src="static/img/icons/metro_.svg" alt="Большая Семёновская">
+                            </div>
+                            <div class="item name">Электрозаводская (6&nbsp;мин)</div>
+                        </div>
+                    </div>
+                    <div class="transport">
+                        <div class="items">
+                            <div class="item circle" style="background-color: blue;">
+                                <img class="ico" src="static/img/icons/metro_.svg" alt="Большая Семёновская">
+                            </div>
+                            <div class="item name">Семёновская (10&nbsp;мин)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper bg_white">
+            <h2 class="">План корпуса:</h2>
+        </div>
+
+        <div class="wrapper bg_white scheme">
+            <div class="scheme_items">
+                <div class="scheme_item floor">
+                    <ul class="floor_items">
+                        <li class="floor_item">1<span> этаж</span></li>
+                        <li class="floor_item">2<span> этаж</span></li>
+                        <li class="floor_item">3<span> этаж</span></li>
+                        <li class="floor_item">4<span> этаж</span></li>
+                    </ul>
+                </div>
+                <div class="scheme_item map">
+                    <img class="scheme_img" src="static/img/campus/av-floor_1.jpg" alt="схема 1 этажа">
+                </div>
+            </div>
+            <a class="" href="" target="">скачать план</a>
+        </div>
+    </section>
+
+</main>
+<footer>
+    <div class="arrow"></div>
+    <div class="footer">
+        <a class="logotip_main" href="https://mospolytech.ru/" target="_blank">
+            <img src="static/img/logotip/logo_main.svg" alt="Логотип сайта МосПолиТех">
+        </a>
+        <a class="download" href="static/files/putevoditel_pervokursnika.pdf" target="_blank">
+            <img src="static/img/icons/download.svg" alt="Скчиваниие файла">
+            <span>скачать<br>путеводитель</span>
+        </a>
+    </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="static/js/slider.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+body {
+  padding-top: 5rem;
+  background-color: #f6e0d4;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+  background-color: #fce7dd;
+}
+.bg-dark {
+  background-color: #7d5b0e!important;
+}
+.btn-outline-success {
+  color: #eadadc;
+  background-color: #a47b1f;
+  border-color: #2b1717;
+}
+.btn-outline-success:hover {
+   color: #eadadc;
+   background-color: #9f8039;
+   border-color: #9f8752;
+
+}
